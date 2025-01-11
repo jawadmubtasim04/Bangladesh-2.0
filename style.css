@@ -1,0 +1,107 @@
+body{
+    align-self: center;
+    background-color: #F5F5F5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    
+}
+
+
+.title {
+      font-family: "Open Sans", serif;
+      font-optical-sizing: auto;
+      
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    color: ;
+ 
+}
+.nav-bar{
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #F5F5F5;
+
+}
+.button{
+   border: ;
+   width: 80px;
+   height: 52px;
+   border: 2px solid #006A50;
+   background-color: white;
+   border-radius: 6px;
+}
+.button a{
+    text-decoration: none;
+    color: #006A50;
+
+}
+.container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 1000px;
+    height: 400px;
+    background-color: #C6E4D6;
+    padding: 60px 80px 60px 80px;
+    margin-left: 100px;
+    border-radius:20px;
+    
+    
+  }
+  
+  
+  
+  
+  .hero-image {
+    width: 400px;
+    height: 300px;
+  }
+.container p{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.container h4{
+    color: #151414;
+    font-weight: lighter;
+    margin-top: 10px;
+    
+}
+.container button{
+    background-color: #006A50;
+    border: 2px solid;
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+    border-color: #006A50;
+    margin-top: 20px;
+}
+.container button a{
+    color: white;
+    text-decoration: none;
+    
+}
+.pillars h3{
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 30px;
+    background-color: #F5F5F5;
+}
+.box{
+    width: 252px;
+    height: 145px;
+    background-color: white;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.box-box{
+    justify-content: space-between;
+    display: flex;
+}
