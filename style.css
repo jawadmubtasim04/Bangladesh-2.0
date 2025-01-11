@@ -1,6 +1,7 @@
 body{
-    align-self: center;
+    align-items: center;
     background-color: #F5F5F5;
+    justify-content: center;
 }
 
 header{
@@ -96,12 +97,156 @@ header{
 }
 .box{
     width: 252px;
-    height: 145px;
+    height: 275px;
     background-color: white;
     margin-left: 80px;
     border-radius: 15px;
+    padding: 20px;
 }
 .box-box{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
+    height: 350px;
+}
+.box p{
+    padding-top: 5px;
+    
+}
+.box-box h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vision-title h3{
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: 30px;
+    
+
+}
+.vision-title p{
+    margin-left: 80px;
+    text-align: justify;
+}
+.vision-box{
+    width: 350px;
+    height: 275px;
+    margin-left: 100px;
+    padding: 20px;
+    justify-items: left;
+    background-color: #81B4FC;
+    border-radius: 10px;
+    
+}
+.vision-box2{
+    width: 350px;
+    height: 275px;
+    margin-left: 100px;
+    padding: 20px;
+    justify-items: left;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    
+}
+.vision-box3{
+    width: 350px;
+    height: 275px;
+    margin-left: 100px;
+    padding: 20px;
+    justify-items: left;
+    background-color: #F7EBCF;
+    border-radius: 10px;
+    
+    
+}
+.vision-box3 p{
+    margin-top: 0px;
+}
+.vision-box3 h5{
+    margin-bottom: 0px;
+      margin-top: 5px;}
+.vision-box2 p{
+        margin-top: 0px;
+    }
+.vision-box2 h5{
+        margin-bottom: 0px;
+        margin-top: 5px;
+
+}
+.vision-box p{
+    margin-top: 5px;
+}
+.vision-box h5{
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+.vision-boxes{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.vision-boxes h5{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.vision-box3 button{
+    background-color:#FFC239 ;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 52px;
+    width: 144px;
+    padding: 12px 7pxx;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 20px;
+}
+.vision-box2 button{
+    background-color:#09A15C;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 52px;
+    width: 144px;
+    padding: 12px 7pxx;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 50px;
+}
+.vision-box button{
+    background-color:#5490F5;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    height: 52px;
+    width: 144px;
+    padding: 12px 7pxx;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 33px;
+}
+.Advisor{
+    background-color: white;
+    width: 1800px;
+    height: 250px;
+    font-size: 25px;
+    font-weight: 600px;    
+    margin-left: 60px;
+    padding: 40px 30px 30px 30px;
+    text-align: justify;
+    border-radius: 20px;
+    background-image: url(./quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:30px 30px;
+    background-size: 70px ;
+}
+.Advisor p{
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: 20px
+}
+.Advisor h3{
+    margin-bottom: 0px;
 }
